@@ -21,3 +21,9 @@ jobs:
       - name: Build Zed
         run: |
           cargo build --release
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: zed-latest.zip
+          path: target/release/

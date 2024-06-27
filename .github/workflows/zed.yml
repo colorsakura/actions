@@ -1,0 +1,23 @@
+name: Build Zed
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Clone Zed
+        uses: actions/checkout@v4
+        with:
+          repository: 'zed-industries/zed'
+
+      - name: Setup Rust toolchain
+        run: |
+          rustup toolchain install stable
+
+      - name: Build Zed
+        run: |
+          cargo build --release

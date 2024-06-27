@@ -28,5 +28,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: zed-latest.zip
-          path: target/release/
+          name: zed-latest
+          path: target/release/zed.exe

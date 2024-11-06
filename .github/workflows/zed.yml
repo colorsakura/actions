@@ -19,7 +19,9 @@ jobs:
 
       - name: Setup Rust toolchain
         run: |
-          rustup toolchain install stable
+          rustup toolchain install stable |
+          git config --system core.longpaths true |
+          New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
 
       - name: Setup Rust cache
         uses: Swatinem/rust-cache@v2

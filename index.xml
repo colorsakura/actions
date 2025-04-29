@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Wiki Pages</title>
+      <link>https://wiki.52bilibili.com</link>
+      <description>最近的10条笔记 on Wiki Pages</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Lua Tutorial</title>
+    <link>https://wiki.52bilibili.com/H%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/PPT/Lua%E6%95%99%E7%A8%8B</link>
+    <guid>https://wiki.52bilibili.com/H%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/PPT/Lua%E6%95%99%E7%A8%8B</guid>
+    <description>Lua Lua 特性 Lua 语法 变量与类型 Lua 是一种动态类型语言 变量 变量的默认值均为nil; Lua 中有三类变量：全局变量，局部变量，table 的域; Lua 中的变量全为全局变量，除非用local显示声明为局部变量。 table { font-size: 10px; } thead { font-size: 12px; } 类型 ...</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>demo</title>
+    <link>https://wiki.52bilibili.com/H%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/PPT/demo</link>
+    <guid>https://wiki.52bilibili.com/H%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/PPT/demo</guid>
+    <description> Marp Markdown Presentation Ecosystem marp.app/ How to write slides Split pages by horizontal ruler (---). It’s very simple! :satisfied: # Slide 1 foobar --- # Slide 2 foobar.</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>README</title>
+    <link>https://wiki.52bilibili.com/README</link>
+    <guid>https://wiki.52bilibili.com/README</guid>
+    <description>Obsidian 这是记录个人笔记的地方，包含各个领域的笔记。 WARNING 本仓库经常会包含一些非常私人的信息，请不要将仓库设置为公开。 .</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>学海无涯苦作舟</title>
+    <link>https://wiki.52bilibili.com/</link>
+    <guid>https://wiki.52bilibili.com/</guid>
+    <description>一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的地方，到哪里都是在流浪。——《我的青春谁做主》 代办列表 项目记录 娱乐记录 学习记录 阅读记录 常用工具 .</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>TODO</title>
+    <link>https://wiki.52bilibili.com/tags/TODO</link>
+    <guid>https://wiki.52bilibili.com/tags/TODO</guid>
+    <description>TODO List.</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>Linux</title>
+    <link>https://wiki.52bilibili.com/tags/linux</link>
+    <guid>https://wiki.52bilibili.com/tags/linux</guid>
+    <description>Linux.</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>常用工具</title>
+    <link>https://wiki.52bilibili.com/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7</link>
+    <guid>https://wiki.52bilibili.com/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7</guid>
+    <description>网页小工具 程序员快速参考清单 .</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>阅读记录</title>
+    <link>https://wiki.52bilibili.com/%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95</link>
+    <guid>https://wiki.52bilibili.com/%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95</guid>
+    <description>TABLE 书名, 作者, 类别, 状态 FROM &quot;F阅读娱乐/阅读&quot; 影视.</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>项目记录</title>
+    <link>https://wiki.52bilibili.com/%E9%A1%B9%E7%9B%AE%E8%AE%B0%E5%BD%95</link>
+    <guid>https://wiki.52bilibili.com/%E9%A1%B9%E7%9B%AE%E8%AE%B0%E5%BD%95</guid>
+    <description>个人项目 irik 媒体影音自动化程序，个人 NAS 的自动化助手。 个人博客设计 使用 赫蹏 美化排版。 SimpleDNS 编写一个简单的 DNS 服务器。 目的 熟悉语言。 学习 DNS 的技术细节。 Bilibili 用户数据爬虫 使用 Scrapy 编写 Bilibili 用户数据爬虫。 目的 熟练 Python 语法 学习 Scrapy 使用 熟悉 SQL ...</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item><item>
+    <title>Linux Lancher.excalidraw</title>
+    <link>https://wiki.52bilibili.com/G%E7%BB%98%E5%9B%BE%E6%96%87%E4%BB%B6/Linux-Lancher.excalidraw</link>
+    <guid>https://wiki.52bilibili.com/G%E7%BB%98%E5%9B%BE%E6%96%87%E4%BB%B6/Linux-Lancher.excalidraw</guid>
+    <description>⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠ Text Elements Item List 1 Input Box Radius .</description>
+    <pubDate>Tue, 29 Apr 2025 08:19:36 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

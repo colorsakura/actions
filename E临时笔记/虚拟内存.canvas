@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"a8e2bf83b5570a16","type":"link","url":"https://wiki.archlinux.org/title/Zram","x":-40,"y":-200,"width":400,"height":400},
+		{"id":"21fd9da457d2e5cd","type":"link","url":"https://wiki.archlinux.org/title/Zswap#Toggling_zswap","x":-520,"y":-200,"width":400,"height":400},
+		{"id":"f4226ba40832ae95","x":-300,"y":-640,"width":400,"height":400,"color":"1","type":"file","file":"G绘图文件/swap.excalidraw.md"}
+	],
+	"edges":[]
+}

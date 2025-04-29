@@ -1,0 +1,3 @@
+# Github Action 编写指南
+
+* 每个action只能在当前action文件更新时触发

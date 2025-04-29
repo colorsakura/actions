@@ -1,0 +1,32 @@
+name: Deploy Obsidian Wiki
+
+on:  
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0/24 * * 1-5'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download Obsidian Artifacts
+        uses: dawidd6/action-download-artifact@v9
+        with:
+          github_token: ${{ secrets.OBSIDIAN_TOKEN }}
+          repo: colorsakura/Obsidian
+          workflow: deploy.yml
+          name: github-pages
+          path: obsidian_build
+          branch: main
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.OBSIDIAN_TOKEN }}
+          publish_dir: ./obsidian_build

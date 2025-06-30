@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on Wiki Pages</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Lua Tutorial</title>
+    <link>https://wiki.52bilibili.com/H%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/PPT/Lua%E6%95%99%E7%A8%8B</link>
+    <guid>https://wiki.52bilibili.com/H%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/PPT/Lua%E6%95%99%E7%A8%8B</guid>
+    <description>Lua Lua 特性 Lua 语法 变量与类型 Lua 是一种动态类型语言 变量 变量的默认值均为nil; Lua 中有三类变量：全局变量，局部变量，table 的域; Lua 中的变量全为全局变量，除非用local显示声明为局部变量。 table { font-size: 10px; } thead { font-size: 12px; } 类型 Lua 中有八种基本类型：nil, boolean, number, string, function, userdata, thread, table 数据类型描述nil只有唯一值 nilboolean布尔值：false, true(false ...</description>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
+  </item><item>
+    <title>demo</title>
+    <link>https://wiki.52bilibili.com/H%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/PPT/demo</link>
+    <guid>https://wiki.52bilibili.com/H%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/PPT/demo</guid>
+    <description> Marp Markdown Presentation Ecosystem marp.app/ How to write slides Split pages by horizontal ruler (---).</description>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
+  </item><item>
     <title>学海无涯苦作舟</title>
     <link>https://wiki.52bilibili.com/</link>
     <guid>https://wiki.52bilibili.com/</guid>
     <description>一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的地方，到哪里都是在流浪。——《我的青春谁做主》 代办列表 项目记录 娱乐记录 学习记录 阅读记录 常用工具 .</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
   </item><item>
     <title>标签: TODO</title>
     <link>https://wiki.52bilibili.com/tags/TODO</link>
     <guid>https://wiki.52bilibili.com/tags/TODO</guid>
     <description>TODO List</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
   </item><item>
     <title>Linux</title>
     <link>https://wiki.52bilibili.com/tags/linux</link>
     <guid>https://wiki.52bilibili.com/tags/linux</guid>
     <description>Linux</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
   </item><item>
     <title>代办列表</title>
     <link>https://wiki.52bilibili.com/%E4%BB%A3%E5%8A%9E%E5%88%97%E8%A1%A8</link>
     <guid>https://wiki.52bilibili.com/%E4%BB%A3%E5%8A%9E%E5%88%97%E8%A1%A8</guid>
     <description>TODO systemd-run 启动部分软件失败 zed podman-desktop 编程 isync 项目发布 v 0.1.0 🛫 2024-06-13 .</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
   </item><item>
     <title>娱乐记录</title>
     <link>https://wiki.52bilibili.com/%E5%A8%B1%E4%B9%90%E8%AE%B0%E5%BD%95</link>
     <guid>https://wiki.52bilibili.com/%E5%A8%B1%E4%B9%90%E8%AE%B0%E5%BD%95</guid>
     <description>娱乐记录 动漫 [/] 灵能百分百 最后的召唤师 Bilibili 电影 我的天才女友 阅读 [/] 赘婿 笔趣阁 [/] 吞噬星空 笔趣阁 .</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
   </item><item>
     <title>学习记录</title>
     <link>https://wiki.52bilibili.com/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95</link>
     <guid>https://wiki.52bilibili.com/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95</guid>
     <description>学习记录 学习哲学 Just in Time Learning Pro Git 中文版（第二版） .</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
   </item><item>
     <title>常用工具</title>
     <link>https://wiki.52bilibili.com/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7</link>
     <guid>https://wiki.52bilibili.com/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7</guid>
     <description>网页小工具 程序员快速参考清单 .</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
   </item><item>
     <title>注塑工程师修炼手册</title>
     <link>https://wiki.52bilibili.com/%E6%B3%A8%E5%A1%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%BF%AE%E7%82%BC%E6%89%8B%E5%86%8C</link>
     <guid>https://wiki.52bilibili.com/%E6%B3%A8%E5%A1%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E4%BF%AE%E7%82%BC%E6%89%8B%E5%86%8C</guid>
-    <description>注塑工程师 常用材料 塑料 通常，人们根据工程塑料最重要的指标——耐热性进行分类，依据其长期使用温度分为通用工程塑料和特种工程塑料，通用工程塑料使用温度在100～150 ℃, 特种工程塑料使用温度在150 ℃以上：五大工程塑料是指常用于制作工业和汽车零部件等应用领域的PA、PBT、PPO、PC、POM。 PA（聚酰胺 ）：是一种极具强度和耐久性的塑料，也被称为尼龙。它的结构中含有两个氨基和两个酸基，因此也被称为双酰胺。PA具有良好的耐磨、抗撞击和耐高温性能，通常被用于制造齿轮、轴承和汽车发动机罩等耐用零件。PA是产量最大、应用面最广和种类最多的工程塑料，常用的有二十几个品种，主要包括尼龙6、尼...</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
-  </item><item>
-    <title>阅读记录</title>
-    <link>https://wiki.52bilibili.com/%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95</link>
-    <guid>https://wiki.52bilibili.com/%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95</guid>
-    <description>TABLE 书名, 作者, 类别, 状态 FROM &quot;F阅读娱乐/阅读&quot; 影视.</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
-  </item><item>
-    <title>项目记录</title>
-    <link>https://wiki.52bilibili.com/%E9%A1%B9%E7%9B%AE%E8%AE%B0%E5%BD%95</link>
-    <guid>https://wiki.52bilibili.com/%E9%A1%B9%E7%9B%AE%E8%AE%B0%E5%BD%95</guid>
-    <description>个人项目 irik 媒体影音自动化程序，个人 NAS 的自动化助手。 个人博客设计 使用 赫蹏 美化排版。 SimpleDNS 编写一个简单的 DNS 服务器。 目的 熟悉语言。 学习 DNS 的技术细节。 Bilibili 用户数据爬虫 使用 Scrapy 编写 Bilibili 用户数据爬虫。 目的 熟练 Python 语法 学习 Scrapy 使用 熟悉 SQL 语法与应用 用户数据分析 CMD 聊天软件 命令行翻译 命令行翻译 熟练 Python 语法 学习 Scrapy 使用 熟悉 SQL 语法与应用 用户数据分析 .</description>
-    <pubDate>Thu, 26 Jun 2025 23:10:50 GMT</pubDate>
+    <description>注塑工程师 常用材料 塑料 通常，人们根据工程塑料最重要的指标——[耐热性]进行分类，依据其长期使用温度分为[通用工程塑料]和[特种工程塑料]，通用工程塑料使用温度在 100～150 ℃, 特种工程塑料使用温度在 150 ℃以上：五大工程塑料是指常用于制作工业和汽车零部件等应用领域的 PA、PBT、PPO、PC、POM。 1.</description>
+    <pubDate>Sun, 29 Jun 2025 23:18:20 GMT</pubDate>
   </item>
     </channel>
   </rss>

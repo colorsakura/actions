@@ -10,61 +10,61 @@
     <link>https://wiki.52bilibili.com/90-Wiki/syntheses/sda-scl-analysis</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/syntheses/sda-scl-analysis</guid>
     <description><![CDATA[ SDA 与 SCL 信号线解析 SDA 和 SCL 是 I2C协议 的两根核心信号线，仅凭这两根线即可实现芯片间的通讯。 核心定义 信号线全称作用SDASerial Data Line（串行数据线）传输实际的数据内容SCLSerial Clock Line（串行时钟线）由主设备产生时钟信号，控制数据传输时序 工作原理 数据有效性规则 SCL 高电平期间：SDA 必须保持稳定（禁止跳变） SCL 低电平期间：允许 SDA 进行跳变 采样时机：发生在 SCL 高电平期间 四种基础信号 起始信号：SCL 高电平时，SDA 由高→低跳变 停止信号：SCL 高电平时，SDA 由低→高跳变 应答信号 (A... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
   </item><item>
     <title>AGENTS</title>
     <link>https://wiki.52bilibili.com/AGENTS</link>
     <guid>https://wiki.52bilibili.com/AGENTS</guid>
     <description><![CDATA[ AGENTS.md Markdown 文件格式要求 必须使用 Obsidian 风格的 markdown 格式, 必须包含 frontmatter。 页面 Frontmatter (YAML) 规范 所有生成的 wiki 页面必须包含以下 YAML 头部： --- title: &quot;页面标题&quot; type: concept | entity | source | synthesis tags: [知识标签] sources:[关联的raw文件相对路径] last_updated: YYYY-MM-DD --- . ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
+  </item><item>
+    <title>root</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/entities/root</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/entities/root</guid>
+    <description><![CDATA[ 定义 root 是 Linux 系统中的超级用户（Superuser）账号，具有系统最高权限。在文件权限层面，root 不受普通权限限制，可以访问和修改任何文件。 关键信息 权限特性：root 不受 UGO 权限模型约束，可以读写/执行/删除任何文件 身份比喻：鳥哥将其比作「万能的天神」，可以到达任何想去的地方 安全建议： 不建议直接以 root 登录系统 推荐使用 su - 切换身份完成任务后用 exit 退出 家目录：/root（与根目录 / 同在一个分区，便于救援模式访问） 关联连接 UGO权限模型 — root 不受此模型限制 chmod — 普通用户修改权限 鳥哥 — 概念的来源教程... ]]></description>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
+  </item><item>
+    <title>tarpc</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/entities/tarpc</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/entities/tarpc</guid>
+    <description><![CDATA[ 定义 tarpc 是 Google 开发的 Rust RPC（远程过程调用）框架，名称取自 Unix 的 tar 工具，意为”传输存档”（Transport Archive）。它使用 bincode 进行消息序列化。 基本信息 属性值编程语言Rust组织Googlecrates.iotarpcGitHubgoogle/tarpc 核心特性 异步设计：基于 Rust 的 async/await 零依赖：核心库零外部依赖 类型安全：编译时类型检查 bincode 序列化：使用 bincode 序列化 RPC 消息 架构设计 传输层 支持多种传输协议 可插入式设计 bincode 处理消息编解码 服... ]]></description>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
+  </item><item>
+    <title>zoxide</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/entities/zoxide</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/entities/zoxide</guid>
+    <description><![CDATA[ 定义 zoxide 是一个用 Rust 编写的智能目录导航工具，类似于 z 和 autojump，能够学习用户最常用的目录并实现快速跳转。 基本信息 属性值编程语言Rust许可证MIT平台Linux, macOS, Windowscrates.iozoxide 核心功能 智能跳转：根据访问频率学习目录习惯 快速匹配：模糊匹配目录名称 跨平台：支持主流操作系统 轻量高效：Rust 实现，性能优异 数据存储 zoxide 使用 bincode 存储目录数据库： ~/.local/share/zoxide/db.zo 数据库包含： 目录路径 访问频率 最后访问时间 存储优势（bincode 提供） ... ]]></description>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
+  </item><item>
+    <title>鳥哥</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/entities/%E9%B3%A5%E5%93%A5</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/entities/%E9%B3%A5%E5%93%A5</guid>
+    <description><![CDATA[ 定义 鳥哥（VBird）是台湾知名的 Linux 技术作家与布道者，其网站 vbird.org 是中文 Linux 学习社区的重要资源。他的《鳥哥的 Linux 私房菜》系列书籍和在线教程陪伴了无数中文用户入门 Linux 系统。 关键信息 网站：linux.vbird.org 代表作品：《鳥哥的 Linux 私房菜》基础学习篇、服务器搭建篇 教学风格：以生活化的比喻（如家庭、抽屉）解释技术概念著称 章节覆盖：从计算机概论、Linux 基础、磁盘管理到网络服务等完整体系 关联连接 摘要-鸟哥私房菜-第五章 — 权限与目录配置章节 FHS — 其教程遵循的文件系统层次标准 . ]]></description>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/</guid>
+    <description><![CDATA[ Wiki Index Sources 摘要-llm-wiki — Karpathy 提出的 LLM Wiki 核心理念：利用 LLM 增量构建持久知识库 摘要-claude-code-skills — Claude Code Skills 系统官方文档：扩展 Claude 能力的核心机制 摘要-qmd — 本地 CLI 搜索工具，支持 BM25、向量搜索和 LLM 重排序的混合搜索 摘要-SPI协议详解 — SPI 通信协议详解：四根信号线、四种模式、多从机连接 摘要-i2c-protocol — I2C 协议详解：双向两线制总线协议、五种速率、应答机制 摘要-linux-acl-权限 — L... ]]></description>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
+  </item><item>
+    <title>log</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/log</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/log</guid>
+    <description><![CDATA[ [2026-05-03] ingest | Podman Quadlet systemd 文档摄入 变更: 新增 摘要-podman-quadlet — 来源摘要 新增 Podman — 无守护进程容器运行时 新增 Quadlet — systemd 集成工具 新增 Containerfile — 镜像构建文件 新增 Container_Unit — 容器单元 新增 Pod_Unit — Pod 单元 新增 Kube_Unit — Kubernetes 单元 新增 Network_Unit — 网络单元 新增 Volume_Unit — 卷单元 新增 Build_Unit — 构建单元 新增 ... ]]></description>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
   </item><item>
     <title>摘要-SPI协议详解</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-SPI%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-SPI%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3</guid>
     <description><![CDATA[ 核心摘要 SPI（Serial Peripheral Interface，串行外设接口）是一种同步全双工串行通信协议，广泛应用于微控制器与外设之间的短距离通信。相比 UART，SPI 通过独立的时钟信号线实现了发送和接收的完美同步，传输速度更快。文章详细介绍了 SPI 的四根信号线、时钟配置（全双工、极性和相位）、四种工作模式以及多从机连接方式（多 NSS 和菊花链）。 关键信息 四根信号线：MISO（主机输入从机输出）、MOSI（主机输出从机输入）、SCK（串行时钟）、NSS/SS（片选） 时钟极性(CPOL)：决定空闲时钟电平（0=低，1=高） 时钟相位(CPHA)：决定采样边沿（0=第一... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
   </item><item>
     <title>bincode - 零开销二进制序列化库</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-bincode</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-bincode</guid>
     <description><![CDATA[ 核心摘要 bincode 是一个 Rust 语言的紧凑型二进制序列化/反序列化库，采用”零开销”（zero-fluff）编码方案。编码后的数据体积与对象在 Rust 程序运行时所占用的内存相同或更小。该库提供两种核心 API：encode_to_vec 和 decode_from_slice，并支持 Reader/Writer 流式接口，可与文件流、网络流及压缩库（如 flate2）配合使用。 关键特性 零开销编码：二进制数据直接序列化，无结构体字段名等元数据 跨架构兼容：字节序不变，可在不同架构间交换数据 varint 编码：小数值使用可变长整数编码，节省空间 安全防护：可选的大小限制配置防... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
-  </item><item>
-    <title>摘要-claude-code-skills</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-claude-code-skills</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-claude-code-skills</guid>
-    <description><![CDATA[ 核心摘要 Claude Code 的 Skills 系统允许用户通过创建 SKILL.md 文件来扩展 Claude 的能力。Skills 基于 Agent Skills 开放标准，该标准适用于多个 AI 工具。Claude Code 对该标准进行了扩展，支持调用控制、Subagent 执行和动态上下文注入。 Skills 主要有两种类型：参考内容（内联运行的领域知识）和任务内容（分步操作说明）。通过 YAML frontmatter 可以精细控制技能的调用权限，包括 disable-model-invocation（仅用户可调用）和 user-invocable: false（仅 Claud... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
-  </item><item>
-    <title>摘要-I2C协议详解</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-i2c-protocol</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-i2c-protocol</guid>
-    <description><![CDATA[ 核心摘要 I2C（Inter-Integrated Circuit）是由 Philips 公司开发、后由 NXP 半导体维护的双向两线制总线协议，仅需 SCL（时钟）和 SDA（数据）两根信号线即可实现芯片间通讯。该协议支持 5 种速率模式（从 100kbps 到 5Mbps），具有完善的应答机制确保通信可靠性，支持 7 位和 10 位两种地址模式，广泛应用于消费电子和工业电子领域。 关联连接 I2C协议 — 核心实体 Philips — 原始开发公司 NXP — 当前标准持有者 FPGA — 协议实现的硬件平台 AT24C1024 — 实测示例存储器芯片 串行通信协议 — 上位概念 半双工通... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
-  </item><item>
-    <title>摘要-linux-acl-权限</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux-acl-%E6%9D%83%E9%99%90</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux-acl-%E6%9D%83%E9%99%90</guid>
-    <description><![CDATA[ 核心摘要 本文详细介绍了 Linux 系统中 ACL（Access Control List，访问控制列表）的使用方法。ACL 是 UGO 权限管理的补充机制，允许针对特定用户或用户组设置文件/目录的访问权限，主要功能包括：针对用户设置权限、针对用户组设置权限、以及子文件/目录继承父目录权限。文章通过实际命令演示了 setfacl 和 getfacl 命令的使用方法，包括添加、修改、删除 ACL 权限，以及 ACL 权限的备份和恢复。 关联连接 ACL — 访问控制列表，UGO 的补充机制 UGO权限模型 — Linux 原生的 User/Group/Other 权限模型 DAC — 自主访问... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
-  </item><item>
-    <title>摘要-linux权限控制基本原理</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86</guid>
-    <description><![CDATA[ 核心摘要 本文深入剖析了 Linux 系统中 DAC（Discretionary Access Control，自主访问控制）安全模型的核心原理。DAC 的核心原则是进程拥有的权限与执行它的用户权限相同。用户和组信息存储在 /etc/passwd、/etc/group 和 /etc/shadow 文件中，通过 UID 和 GID 进行标识。进程具有 ruid、euid、egid、saved set-user-id 等属性来控制文件访问权限。文章详细解释了 set-user-id 位和粘滞位的工作机制，以及如何通过 exec 系统调用和 setuid 系统调用来修改进程的权限属性。 关联连接 D... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
-  </item><item>
-    <title>摘要-linux权限管理</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86</guid>
-    <description><![CDATA[ 核心摘要 本文系统性地介绍了 Linux 操作系统的权限管理体系，分为 UGO+RWX/ACL 基础权限控制和 SELinux 强制访问控制两部分。Linux 是多用户操作系统，需要解决资源隔离和共享问题。基础权限通过 UGO（User/Group/Other）配合 RWX（Read/Write/eXecute）实现自主访问控制（DAC）。进阶的 SELinux 则采用基于标签的强制访问控制（MAC），通过规则库对主体和客体进行标签匹配来控制访问权限，而非依赖用户角色。文章详细解释了 RWX 各权限位对文件和目录的不同含义，以及 SELinux 的三种工作模式（Disabled、Enforci... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
-  </item><item>
-    <title>摘要-llm-wiki</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-llm-wiki</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-llm-wiki</guid>
-    <description><![CDATA[ 核心摘要 本文由 Karpathy 提出了一种利用 LLM 构建个人知识库的新范式。与传统 RAG 不同，该模式让 LLM 增量构建和维护一个持久的 Wiki 作为中间层，实现知识的积累与复用。Wiki 包含三层架构：原始资料层（只读）、Wiki 层（LLM 全权维护）、Schema 层（规范文档）。LLM 承担所有繁琐的汇总、交叉引用、归档和维护工作，人类负责策展、提问和思考。这种模式让知识库的维护成本趋近于零，知识随时间不断增值。 关联连接 LLMWiki模式 — 本文提出的核心知识管理范式 三层架构 — Wiki 的技术架构 Ingest — 知识摄取操作 Query — 知识查询操作 ... ]]></description>
-    <pubDate>Fri, 08 May 2026 03:51:40 GMT</pubDate>
+    <pubDate>Fri, 15 May 2026 00:17:06 GMT</pubDate>
   </item>
     </channel>
   </rss>

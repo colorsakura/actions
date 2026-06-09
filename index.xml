@@ -10,61 +10,61 @@
     <link>https://wiki.52bilibili.com/assets/template/%E9%98%85%E8%AF%BB</link>
     <guid>https://wiki.52bilibili.com/assets/template/%E9%98%85%E8%AF%BB</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:53 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:44 GMT</pubDate>
   </item><item>
     <title>日记</title>
     <link>https://wiki.52bilibili.com/assets/template/%E6%97%A5%E8%AE%B0</link>
     <guid>https://wiki.52bilibili.com/assets/template/%E6%97%A5%E8%AE%B0</guid>
     <description><![CDATA[ 工作 学习 其他. ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:53 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:44 GMT</pubDate>
   </item><item>
     <title>摘要-claude-code-skills</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-claude-code-skills</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-claude-code-skills</guid>
     <description><![CDATA[ 核心摘要 Claude Code 的 Skills 系统允许用户通过创建 SKILL.md 文件来扩展 Claude 的能力。Skills 基于 Agent Skills 开放标准，该标准适用于多个 AI 工具。Claude Code 对该标准进行了扩展，支持调用控制、Subagent 执行和动态上下文注入。 Skills 主要有两种类型：参考内容（内联运行的领域知识）和任务内容（分步操作说明）。通过 YAML frontmatter 可以精细控制技能的调用权限，包括 disable-model-invocation（仅用户可调用）和 user-invocable: false（仅 Claud... ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:29 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:20 GMT</pubDate>
   </item><item>
     <title>摘要-I2C 协议详解</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-i2c-protocol</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-i2c-protocol</guid>
     <description><![CDATA[ 核心摘要 I2C（Inter-Integrated Circuit）是由 Philips 公司开发、后由 NXP 半导体维护的双向两线制总线协议，仅需 SCL（时钟）和 SDA（数据）两根信号线即可实现芯片间通讯。该协议支持 5 种速率模式（从 100kbps 到 5Mbps），具有完善的应答机制确保通信可靠性，支持 7 位和 10 位两种地址模式，广泛应用于消费电子和工业电子领域。 关联连接 I2C协议 — 核心实体 Philips — 原始开发公司 NXP — 当前标准持有者 FPGA — 协议实现的硬件平台 AT24C1024 — 实测示例存储器芯片 串行通信协议 — 上位概念 半双工通... ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:29 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:20 GMT</pubDate>
   </item><item>
     <title>摘要-linux-acl-权限</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux-acl-%E6%9D%83%E9%99%90</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux-acl-%E6%9D%83%E9%99%90</guid>
     <description><![CDATA[ 核心摘要 本文详细介绍了 Linux 系统中 ACL（Access Control List，访问控制列表）的使用方法。ACL 是 UGO 权限管理的补充机制，允许针对特定用户或用户组设置文件/目录的访问权限，主要功能包括：针对用户设置权限、针对用户组设置权限、以及子文件/目录继承父目录权限。文章通过实际命令演示了 setfacl 和 getfacl 命令的使用方法，包括添加、修改、删除 ACL 权限，以及 ACL 权限的备份和恢复。 关联连接 ACL — 访问控制列表，UGO 的补充机制 UGO权限模型 — Linux 原生的 User/Group/Other 权限模型 DAC — 自主访问... ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:29 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:20 GMT</pubDate>
   </item><item>
     <title>摘要-linux 权限控制基本原理</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86</guid>
     <description><![CDATA[ 核心摘要 本文深入剖析了 Linux 系统中 DAC（Discretionary Access Control，自主访问控制）安全模型的核心原理。DAC 的核心原则是进程拥有的权限与执行它的用户权限相同。用户和组信息存储在 /etc/passwd、/etc/group 和 /etc/shadow 文件中，通过 UID 和 GID 进行标识。进程具有 ruid、euid、egid、saved set-user-id 等属性来控制文件访问权限。文章详细解释了 set-user-id 位和粘滞位的工作机制，以及如何通过 exec 系统调用和 setuid 系统调用来修改进程的权限属性。 关联连接 D... ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:29 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:20 GMT</pubDate>
   </item><item>
     <title>摘要-linux 权限管理</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86</guid>
     <description><![CDATA[ 核心摘要 本文系统性地介绍了 Linux 操作系统的权限管理体系，分为 UGO+RWX/ACL 基础权限控制和 SELinux 强制访问控制两部分。Linux 是多用户操作系统，需要解决资源隔离和共享问题。基础权限通过 UGO（User/Group/Other）配合 RWX（Read/Write/eXecute）实现自主访问控制（DAC）。进阶的 SELinux 则采用基于标签的强制访问控制（MAC），通过规则库对主体和客体进行标签匹配来控制访问权限，而非依赖用户角色。文章详细解释了 RWX 各权限位对文件和目录的不同含义，以及 SELinux 的三种工作模式（Disabled、Enforci... ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:29 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:20 GMT</pubDate>
   </item><item>
     <title>摘要-llm-wiki</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-llm-wiki</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-llm-wiki</guid>
     <description><![CDATA[ 核心摘要 本文由 Karpathy 提出了一种利用 LLM 构建个人知识库的新范式。与传统 RAG 不同，该模式让 LLM 增量构建和维护一个持久的 Wiki 作为中间层，实现知识的积累与复用。Wiki 包含三层架构：原始资料层（只读）、Wiki 层（LLM 全权维护）、Schema 层（规范文档）。LLM 承担所有繁琐的汇总、交叉引用、归档和维护工作，人类负责策展、提问和思考。这种模式让知识库的维护成本趋近于零，知识随时间不断增值。 关联连接 LLMWiki模式 — 本文提出的核心知识管理范式 三层架构 — Wiki 的技术架构 Ingest — 知识摄取操作 Query — 知识查询操作 ... ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:29 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:20 GMT</pubDate>
   </item><item>
     <title>摘要-podman-quadlet</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-podman-quadlet</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-podman-quadlet</guid>
     <description><![CDATA[ 核心摘要 Podman Quadlet 是 Podman 官方提供的 systemd 集成工具，允许用户通过声明式的 unit 文件（.container、.pod、.kube、.network、.volume、.build、.image、.artifact 等）来管理容器生命周期。这些 unit 文件会被自动转换为对应的 systemd 服务文件，实现容器随系统启动自动运行、依赖管理和日志收集等功能。Quadlet 支持与 systemd 原生机制深度集成，是无守护进程容器运行模式下管理长期运行服务的推荐方案。 关联连接 Podman — 容器运行时工具，Quadlet 的宿主 Quadle... ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:29 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:20 GMT</pubDate>
   </item><item>
     <title>摘要-qmd</title>
     <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-qmd</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-qmd</guid>
     <description><![CDATA[ 核心摘要 QMD（Query Markup Documents）是一个运行在本地的命令行搜索工具，专为个人知识库、文档和笔记设计。它结合了 BM25 全文搜索、向量语义搜索和 LLM 重排序三种技术，通过混合搜索策略提供高质量的检索结果。QMD 支持通过 MCP（Model Context Protocol）协议与 AI 智能体集成，也可作为 Node.js/Bun 库嵌入到应用程序中。其核心特点是全部模型本地运行，无需云端，支持中文等多语言文档索引。 关键信息 技术架构：BM25 + 向量搜索 + LLM 重排序的混合搜索流水线 部署方式：全部本地运行，通过 node-llama-cpp 使... ]]></description>
-    <pubDate>Sun, 07 Jun 2026 10:49:29 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 19:29:20 GMT</pubDate>
   </item>
     </channel>
   </rss>

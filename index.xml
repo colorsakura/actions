@@ -10,61 +10,61 @@
     <link>https://wiki.52bilibili.com/assets/templates/%E9%98%85%E8%AF%BB</link>
     <guid>https://wiki.52bilibili.com/assets/templates/%E9%98%85%E8%AF%BB</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:44:08 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 14:43:54 GMT</pubDate>
   </item><item>
     <title>日记</title>
     <link>https://wiki.52bilibili.com/assets/templates/%E6%97%A5%E8%AE%B0</link>
     <guid>https://wiki.52bilibili.com/assets/templates/%E6%97%A5%E8%AE%B0</guid>
     <description><![CDATA[ 工作 学习 其他. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:44:08 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 14:43:54 GMT</pubDate>
   </item><item>
     <title>未命名</title>
     <link>https://wiki.52bilibili.com/assets/Books/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
     <guid>https://wiki.52bilibili.com/assets/Books/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:43:44 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 14:43:30 GMT</pubDate>
   </item><item>
     <title>SDA 与 SCL 信号线解析</title>
     <link>https://wiki.52bilibili.com/90-Wiki/syntheses/sda-scl-analysis</link>
     <guid>https://wiki.52bilibili.com/90-Wiki/syntheses/sda-scl-analysis</guid>
     <description><![CDATA[ SDA 与 SCL 信号线解析 SDA 和 SCL 是 I2C协议 的两根核心信号线，仅凭这两根线即可实现芯片间的通讯。 核心定义 信号线全称作用SDASerial Data Line（串行数据线）传输实际的数据内容SCLSerial Clock Line（串行时钟线）由主设备产生时钟信号，控制数据传输时序 工作原理 数据有效性规则 SCL 高电平期间：SDA 必须保持稳定（禁止跳变） SCL 低电平期间：允许 SDA 进行跳变 采样时机：发生在 SCL 高电平期间 四种基础信号 起始信号：SCL 高电平时，SDA 由高→低跳变 停止信号：SCL 高电平时，SDA 由低→高跳变 应答信号 (A... ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:43:44 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 14:43:30 GMT</pubDate>
   </item><item>
     <title>AGENTS</title>
     <link>https://wiki.52bilibili.com/AGENTS</link>
     <guid>https://wiki.52bilibili.com/AGENTS</guid>
     <description><![CDATA[ AGENTS.md Markdown 文件格式要求 必须使用 Obsidian 风格的 markdown 格式，必须包含 frontmatter。 页面 Frontmatter (YAML) 规范 所有生成的 wiki 页面必须包含以下 YAML 头部： --- title: &quot;页面标题&quot; type: concept | entity | source | synthesis tags: [知识标签] sources:[关联的raw文件相对路径] last_updated: YYYY-MM-DD --- . ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:43:44 GMT</pubDate>
+    <pubDate>Mon, 15 Jun 2026 14:43:30 GMT</pubDate>
   </item><item>
-    <title>ClaudeCode</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/entities/ClaudeCode</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/entities/ClaudeCode</guid>
-    <description><![CDATA[ 定义 Claude Code 是 Anthropic 提供的 AI 编程工具，通过命令行界面与 Claude（Claude 3.5 Sonnet / 3.7 Sonnet）集成，帮助开发者完成代码编写、调试、重构等编程任务。 关键信息 核心功能 Skills 系统：通过 SKILL.md 文件扩展 Claude 能力 Subagents：将任务委派给专门的代理 内置命令：如 /help、/compact、/loop 等 Memory：通过 CLAUDE.md 文件管理持久上下文 Hooks：围绕工具事件自动化工作流 捆绑 Skills Skill用途/batch大规模并行代码更改/claude... ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:43:44 GMT</pubDate>
+    <title>Nixos安装</title>
+    <link>https://wiki.52bilibili.com/Nixos%E5%AE%89%E8%A3%85</link>
+    <guid>https://wiki.52bilibili.com/Nixos%E5%AE%89%E8%A3%85</guid>
+    <description><![CDATA[ NixOS 安装 记录一次虚拟机安装NixOS的过程。 Note 安装系统 分区 挂载分区 安装. ]]></description>
+    <pubDate>Mon, 15 Jun 2026 14:43:30 GMT</pubDate>
   </item><item>
-    <title>Containerfile</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/entities/Containerfile</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/entities/Containerfile</guid>
-    <description><![CDATA[ 定义 Containerfile 是用于构建容器镜像的声明式文本文件，包含一系列指令（如 FROM、RUN、COPY、ENV 等）。它类似于 Docker 的 Dockerfile，但 Podman 官方更推荐使用 Containerfile 这个名称。 关联连接 摘要-podman-quadlet — 来源 Quadlet — 关联工具 . ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:43:44 GMT</pubDate>
+    <title>摘要-claude-code-skills</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-claude-code-skills</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-claude-code-skills</guid>
+    <description><![CDATA[ 核心摘要 Claude Code 的 Skills 系统允许用户通过创建 SKILL.md 文件来扩展 Claude 的能力。Skills 基于 Agent Skills 开放标准，该标准适用于多个 AI 工具。Claude Code 对该标准进行了扩展，支持调用控制、Subagent 执行和动态上下文注入。 Skills 主要有两种类型：参考内容（内联运行的领域知识）和任务内容（分步操作说明）。通过 YAML frontmatter 可以精细控制技能的调用权限，包括 disable-model-invocation（仅用户可调用）和 user-invocable: false（仅 Claud... ]]></description>
+    <pubDate>Mon, 15 Jun 2026 14:43:30 GMT</pubDate>
   </item><item>
-    <title>FPGA</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/entities/FPGA</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/entities/FPGA</guid>
-    <description><![CDATA[ 定义 FPGA（Field Programmable Gate Array，现场可编程门阵列）是一种可编程的数字集成电路，常用于实现串行通信协议时序，包括 UART、SPI、I2C 等。 I2C 协议实现 FPGA 实现 I2C 协议通常采用状态机大法： 核心状态定义 S0_IDLE = 0, // 空闲状态 S1_START1 = 1, // 发送起始信号 S2_CTRL_BYTE1 = 2, // 发送控制字节 S3_ACK1 = 3, // 检测应答 S4_ADDR = 4, // 发送寄存器地址 S5_ACK2 = 5, // 检测应答 S6W_DATA = 6, // 写数据 S7W... ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:43:44 GMT</pubDate>
+    <title>摘要-I2C 协议详解</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-i2c-protocol</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-i2c-protocol</guid>
+    <description><![CDATA[ 核心摘要 I2C（Inter-Integrated Circuit）是由 Philips 公司开发、后由 NXP 半导体维护的双向两线制总线协议，仅需 SCL（时钟）和 SDA（数据）两根信号线即可实现芯片间通讯。该协议支持 5 种速率模式（从 100kbps 到 5Mbps），具有完善的应答机制确保通信可靠性，支持 7 位和 10 位两种地址模式，广泛应用于消费电子和工业电子领域。 关联连接 I2C协议 — 核心实体 Philips — 原始开发公司 NXP — 当前标准持有者 FPGA — 协议实现的硬件平台 AT24C1024 — 实测示例存储器芯片 串行通信协议 — 上位概念 半双工通... ]]></description>
+    <pubDate>Mon, 15 Jun 2026 14:43:30 GMT</pubDate>
   </item><item>
-    <title>I2C 协议</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/entities/I2C%E5%8D%8F%E8%AE%AE</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/entities/I2C%E5%8D%8F%E8%AE%AE</guid>
-    <description><![CDATA[ 定义 I2C（Inter-Integrated Circuit，集成电路互连）是一种由 Philips 公司开发、现由 NXP 半导体维护的通用双向两线制总线协议。仅需两根信号线（SCL 时钟线和 SDA 数据线）即可实现芯片间的通讯。 核心特性 硬件优势 极少的管脚和连接线：仅需 2 个管脚，极小的布线面积 统一的软件驱动：同一 I2C 驱动库可驱动不同器件 低功耗设计：极低的工作电流 完善的应答机制：大大增强通讯可靠性 五种速率模式 模式速率说明标准模式 (Standard)100kbps基础速率快速模式 (Fast)400kbps常用模式快速模式 + (Fast-Plus)1Mbps更高... ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:43:44 GMT</pubDate>
+    <title>摘要-linux-acl-权限</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux-acl-%E6%9D%83%E9%99%90</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux-acl-%E6%9D%83%E9%99%90</guid>
+    <description><![CDATA[ 核心摘要 本文详细介绍了 Linux 系统中 ACL（Access Control List，访问控制列表）的使用方法。ACL 是 UGO 权限管理的补充机制，允许针对特定用户或用户组设置文件/目录的访问权限，主要功能包括：针对用户设置权限、针对用户组设置权限、以及子文件/目录继承父目录权限。文章通过实际命令演示了 setfacl 和 getfacl 命令的使用方法，包括添加、修改、删除 ACL 权限，以及 ACL 权限的备份和恢复。 关联连接 ACL — 访问控制列表，UGO 的补充机制 UGO权限模型 — Linux 原生的 User/Group/Other 权限模型 DAC — 自主访问... ]]></description>
+    <pubDate>Mon, 15 Jun 2026 14:43:30 GMT</pubDate>
   </item><item>
-    <title>Karpathy</title>
-    <link>https://wiki.52bilibili.com/90-Wiki/entities/Karpathy</link>
-    <guid>https://wiki.52bilibili.com/90-Wiki/entities/Karpathy</guid>
-    <description><![CDATA[ 定义 Andrej Karpathy 是一位著名的人工智能研究者，曾担任特斯拉 Autopilot 视觉团队的负责人，也是 OpenAI 的创始成员之一。他以在深度学习和计算机视觉方面的贡献而闻名，同时也是一位活跃的技术布道者。 与 LLM Wiki 的关系 Karpathy 是 LLM Wiki 概念的提出者。他在 GitHub Gist 上发布了名为 “LLM Wiki” 的文章，详细阐述了一种利用 LLM 构建个人知识库的新范式。 主要贡献 LLM Wiki 模式 提出了一种与 RAG 不同的知识管理方法，强调： LLM 增量构建和维护持久 Wiki 知识编译一次，持续复用 人类负责策展... ]]></description>
-    <pubDate>Sat, 13 Jun 2026 05:43:44 GMT</pubDate>
+    <title>摘要-linux 权限控制基本原理</title>
+    <link>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86</link>
+    <guid>https://wiki.52bilibili.com/90-Wiki/sources/%E6%91%98%E8%A6%81-linux%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86</guid>
+    <description><![CDATA[ 核心摘要 本文深入剖析了 Linux 系统中 DAC（Discretionary Access Control，自主访问控制）安全模型的核心原理。DAC 的核心原则是进程拥有的权限与执行它的用户权限相同。用户和组信息存储在 /etc/passwd、/etc/group 和 /etc/shadow 文件中，通过 UID 和 GID 进行标识。进程具有 ruid、euid、egid、saved set-user-id 等属性来控制文件访问权限。文章详细解释了 set-user-id 位和粘滞位的工作机制，以及如何通过 exec 系统调用和 setuid 系统调用来修改进程的权限属性。 关联连接 D... ]]></description>
+    <pubDate>Mon, 15 Jun 2026 14:43:30 GMT</pubDate>
   </item>
     </channel>
   </rss>
